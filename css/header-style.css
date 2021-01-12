@@ -19,3 +19,4 @@ li{
 }
 #menu > li > a{color:white;}
 #menu > li > a:hover {text-decoration: none;}
+#menu > li:first-child{padding-left:0px;}
