@@ -1,0 +1,21 @@
+body {margin:0 20%;}
+a {
+    text-decoration: none;
+    color:black;
+}
+a:hover {text-decoration: underline;}
+header > a {text-align:center;}
+header > a:hover{text-decoration: none;}
+ul{overflow: hidden;}
+#menu {
+    width:100%;
+    border-radius: 10px 10px 10px 10px;
+    background-color: black;
+}
+li{
+    list-style: none;
+    float:left;
+    padding:15px;
+}
+#menu > li > a{color:white;}
+#menu > li > a:hover {text-decoration: none;}
