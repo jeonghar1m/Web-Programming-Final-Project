@@ -1,18 +1,21 @@
-body {margin:0 20%;}
+html {background-color:gray;}
+body {margin:0 auto; width:960px;}
+section {background-color: white; overflow: hidden;}
+section > hr {color:gray;}
 a {
     text-decoration: none;
     color:black;
 }
 a:hover {text-decoration: underline;}
-header > a {text-align:center;}
-header > a:hover{text-decoration: none;}
+header {text-align:center;}
+#logo {font-size: 30pt;}
+#logo a:hover {text-decoration: none;}
 ul{overflow: hidden;}
 #menu {
-    width:100%;
     border-radius: 10px 10px 10px 10px;
     background-color: black;
 }
-li{
+#menu > li{
     list-style: none;
     float:left;
     padding:15px;
@@ -20,3 +23,5 @@ li{
 #menu > li > a{color:white;}
 #menu > li > a:hover {text-decoration: none;}
 #menu > li:first-child{padding-left:0px;}
+footer {background-color: black; margin-top:20px;}
+#copy {color:white; text-align: center; padding: 20px;}
