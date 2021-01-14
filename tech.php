@@ -8,24 +8,17 @@
 </head>
 <body>
     <header>
-        <span id="logo"><a href="index.html">정하림</a></span>
+        <span id="logo"><a href="index.php">정하림</a></span>
     </header>
     <nav>
         <ul id="menu">
-            <li><a href="tech.html">기술정리</a></li>
+            <li><a href="tech.php">기술정리</a></li>
         </ul>
     </nav>
     <section>
-        <h1>Main Page</h1>
+        <h1>기술정리</h1>
         <hr>
-        메인페이지입니다.
-        <h2>사이트맵</h2>
-        <ul>
-            <li>메인페이지</li>
-            <ul>
-                <li>메뉴1</li>
-            </ul>
-        </ul>
+        제 홈페이지에 들어갈 기술은 수업시간에 배웠던 html/css를 기본적으로 사용할 것이며, 아직 여기에는 반영되지 않았지만, 하나의 레이아웃을 사용할 것이기 때문에 php를 별도로 독학해서 사용할 예정입니다.
     </section>
     <footer>
         <div id="copy">&copy; 2021 정하림 All rights reserved</div>
