@@ -28,3 +28,17 @@ footer > .mail {color: white; text-align: center;}
 footer > .mail > a {color:white;}
 footer > .mail > a:hover {text-decoration: underline;}
 #copy {color:white; text-align: center; padding: 20px;}
+
+/* 스마트폰 */
+@media screen and (max-width: 767px) {
+    body {width: auto;}
+    nav {width: auto; float: none;}
+    section {width: auto; float: none;}
+}
+
+/* 태블릿 PC 세로 */
+@media screen and (min-width: 768px) and (max-width: 959px) {
+    body {width: auto;}
+    nav {width: auto; float: none;}
+    section {width: auto; float: none;}
+}
