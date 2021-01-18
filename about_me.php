@@ -12,12 +12,15 @@
 <body>
 <?php include $_SERVER['DOCUMENT_ROOT']."/layout/header.php"; ?>
     <?php include $_SERVER['DOCUMENT_ROOT']."/layout/nav.php"; ?>
-    <section>
-        <h1>자기소개</h1>
-        <hr>
-        <div id="face"><img src="img/face.png" width="150px"></div>
-        저는 홍익대학교 게임소프트웨어전공에 재학하고 있는 15학번 정하림입니다.
-    </section>
+    <div id="main">
+        <section>
+            <h1>자기소개</h1>
+            <hr>
+            <div id="face"><img src="img/face.png" width="150px"></div>
+            저는 홍익대학교 게임소프트웨어전공에 재학하고 있는 15학번 정하림입니다.
+        </section>
+        <?php include $_SERVER['DOCUMENT_ROOT']."/layout/aside.php"; ?>
+    </div>
     <?php include $_SERVER['DOCUMENT_ROOT']."/layout/footer.php"; ?>
 </body>
 </html>

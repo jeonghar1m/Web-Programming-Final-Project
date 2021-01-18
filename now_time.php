@@ -19,11 +19,14 @@
 <body>
 <?php include $_SERVER['DOCUMENT_ROOT']."/layout/header.php"; ?>
     <?php include $_SERVER['DOCUMENT_ROOT']."/layout/nav.php"; ?>
-    <section>
-        <h1>현재 시간</h1>
-        <hr>
-        <span id="clock"></span>
-    </section>
+    <div id="main">
+        <section>
+            <h1>현재 시간</h1>
+            <hr>
+            <span id="clock"></span>
+        </section>
+        <?php include $_SERVER['DOCUMENT_ROOT']."/layout/aside.php"; ?>
+    </div>
     <?php include $_SERVER['DOCUMENT_ROOT']."/layout/footer.php"; ?>
 </body>
 </html>
