@@ -5,7 +5,7 @@
             <li><a href="timetable.php">시간표</a></li>
             <li><a href="playlist.php">플레이리스트</a></li>
             <li><a href="stature.php">예상 키 계산하기</a></li>
-            <li><a href="#">미정 메뉴 1</a></li>
-            <li><a href="#">미정 메뉴 2</a></li>
+            <li><a href="now_time.php">현재 시간</a></li>
+            <li><a href="#">미정 메뉴</a></li>
         </ul>
     </nav>
