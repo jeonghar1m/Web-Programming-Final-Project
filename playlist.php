@@ -22,6 +22,7 @@
         <audio controls="controls">
         <source src="mp3/Kalimba.mp3" type="audio/mp3">
         </audio>
+		<h2>mp4 파일</h2>
         <div>
             <video controls="controls" poster="http://placehold.it/640x360">
             <source src="video/Wildlife.mp4" type="video/mp4">
