@@ -6,6 +6,5 @@
             <li><a href="playlist.php">플레이리스트</a></li>
             <li><a href="stature.php">예상 키 계산하기</a></li>
             <li><a href="now_time.php">현재 시간</a></li>
-            <li><a href="#">미정 메뉴</a></li>
         </ul>
     </nav>
